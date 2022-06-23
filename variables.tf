@@ -1,4 +1,4 @@
-variable "aws_region" {
+variable "region" {
   type        = string
   description = "AWS Region in which to deploy our hashistack instance."
   default     = "us-west-2"
